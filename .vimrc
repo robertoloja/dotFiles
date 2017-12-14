@@ -162,13 +162,7 @@ map <F5> :call CompileAndRun()<Enter>
 "       :!clear; scp % n01100239@munro.humber.ca:~/public_html
 "endfunction
 "
-"function SaveAndUploadAltervista ()
-"       :w
-"       :!clear; ncftpput -utssoti -pianh1188 ftp.tssoti.altervista.org / %
-"endfunction
-
 "map <silent><leader>sm :call SaveAndUploadMunro()<Enter>
-"map <silent><leader>sa :call SaveAndUploadAltervista()<Enter>
 
 "-------------------------------------
 " Time saving preparations for coding.
